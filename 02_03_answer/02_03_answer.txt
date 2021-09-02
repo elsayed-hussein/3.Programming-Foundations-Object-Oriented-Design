@@ -1,0 +1,18 @@
+Functional
+    The system Must:
+        1.maintain a library of albums and songs.
+        2.allow users to browse albums and songs.
+        3.allow users to select individual songs.
+        4.prevent users from selecting entire albums.
+        5.maintain a queue of songs to play.
+        6.play music.
+        7.allow users to sort by artist.
+        8.identify individual users.
+        9.track number of plays per user.
+
+Non-Functional
+    The system should :
+        1.intuitive to use while floating in space.
+        2.available 24/7.
+        3.low-power.
+        4.updatable.
