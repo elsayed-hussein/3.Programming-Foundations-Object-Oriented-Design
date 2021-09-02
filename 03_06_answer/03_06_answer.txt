@@ -1,0 +1,52 @@
+Functional
+    The system Must:
+        1.maintain a library of albums and songs.
+        2.allow users to browse albums and songs.
+        3.allow users to select individual songs.
+        4.prevent users from selecting entire albums.
+        5.maintain a queue of songs to play.
+        6.play music.
+        7.allow users to sort by artist.
+        8.identify individual users.
+        9.track number of plays per user.
+
+Non-Functional
+    The system should :
+        1.intuitive to use while floating in space.
+        2.available 24/7.
+        3.low-power.
+        4.updatable.
+
+
+Use-Cases
+    Title: play a song.
+    Primary Actor: User.
+    Success-Scenario:
+        1.system identifies user.
+        2.user browses library of available albums.
+        3.user selects an album and browses list of songs on the selected album.
+        4.user selects a song .
+        5.system plays the selected song.
+
+    Title: select multiple songs.
+    Primary Actor: User.
+    Success-Scenario:
+        1.system identifies user.
+        2.user browses library of available albums.
+        3.user selects an album and browses list of songs on the selected album.
+        4.user selects a song .
+        5.system plays the selected song.
+        6.user continues browsing and select a second song.
+        7.system adds second song to play queue.
+        8.system plays second song after first song is over.
+
+
+User_Stories
+    1.As a user,I want my song to be added to the front of a long play queue,
+        So that i don't have to wait hours to hear it. 
+
+    2.As a user,I want to be identified without touching anything,So that my 
+        hands are free to do other things.
+
+
+    
