@@ -1,0 +1,51 @@
+        Song
+________________________
+    -title:String.
+    -artist:String.
+________________________
+    +getTitle():String.
+    +getArtist():String.
+    +play().
+
+######################################
+        Album
+________________________
+    -title:List of Strings.
+    -songs:List of Songs.
+________________________
+    +getTitle():List of Strings.
+    +getSongs(String):Song.
+
+######################################
+        Library
+________________________
+    -titles:Strings[1..*].
+    -albums:Albums[1..*].
+________________________
+    +getTitle():Strings[1..*].
+    +gitAlbum(String):Album.
+
+######################################
+        Queue
+________________________
+    -playList:Songs[0..*].
+________________________
+    +addSong(Song,String).
+    +getNextSong():Song.
+    +removeSong(Song).
+
+######################################
+        User
+________________________
+    -id:String.
+________________________
+    +getId():String.
+
+######################################
+        Admin
+________________________
+    -id:String.
+________________________
+    +grtId():String.
+    +createUser().
+    +manageQueue().
